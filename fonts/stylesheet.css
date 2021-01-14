@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Choplin ExtraLight';
+    src: url('Choplin-ExtraLight-DEMO.eot');
+    src: url('Choplin-ExtraLight-DEMO.eot?#iefix') format('embedded-opentype'),
+        url('Choplin-ExtraLight-DEMO.woff2') format('woff2'),
+        url('Choplin-ExtraLight-DEMO.woff') format('woff'),
+        url('Choplin-ExtraLight-DEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Choplin Medium';
+    src: url('Choplin-Medium-DEMO.eot');
+    src: url('Choplin-Medium-DEMO.eot?#iefix') format('embedded-opentype'),
+        url('Choplin-Medium-DEMO.woff2') format('woff2'),
+        url('Choplin-Medium-DEMO.woff') format('woff'),
+        url('Choplin-Medium-DEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro bold';
+    src: url('GothamPro-Bold.eot');
+    src: url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GothamPro-Bold.woff2') format('woff2'),
+        url('GothamPro-Bold.woff') format('woff'),
+        url('GothamPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('GothamPro.eot');
+    src: url('GothamPro.eot?#iefix') format('embedded-opentype'),
+        url('GothamPro.woff2') format('woff2'),
+        url('GothamPro.woff') format('woff'),
+        url('GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

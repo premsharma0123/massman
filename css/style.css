@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  color: #2c3e50;
+  background: #fff;
+  font-family: 'Gotham Pro Regular';
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, .head-wrp, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gotham Pro bold';
+  color: #2c3e50;
+}
+
+a, p {
+  font-family: 'Gotham Pro Regular';
+  color: #787878;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main header {
+  width: 100%;
+  background: #262f3a;
+  padding: .9rem 0;
+  -webkit-box-shadow: 0 2px 3px 0 #00000030;
+          box-shadow: 0 2px 3px 0 #00000030;
+}
+
+main header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+main header nav .logo {
+  width: 300px;
+}
+
+main header nav .logo a img {
+  max-width: 54%;
+}
+
+main header nav .Nav_item {
+  width: 70%;
+}
+
+main header nav .Nav_item ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main header nav .Nav_item ul li {
+  margin: 0 .8rem;
+  list-style-type: none;
+}
+
+main header nav .Nav_item ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+  text-transform: capitalize;
+}
+
+.banner_wrapper {
+  min-height: calc(84vh - 100px);
+}
+
+#element2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  position: absolute !important;
+  min-height: calc(84vh - 100px);
+  z-index: -1;
+}
+
+#element2 .vanta-canvas {
+  height: 557px !important;
+}
+/*# sourceMappingURL=style.css.map */
