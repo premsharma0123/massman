@@ -6,75 +6,224 @@
     <title>Massman</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/Hover-master/css/hover-min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="css/textanime.css">
 </head>
 <body>
     <main>
         <header>
             <div class="container">
                 <nav>
-                    <div class="logo">
+                    <div class="logo your-element" data-tilt data-tilt-glare data-tilt-max-glare="0.8" >
+                        <!-- data-tilt data-tilt-glare data-tilt-max-glare="0.8" -->
                         <a href="#">
-                            <img src="/image/logo.png" alt="img">
+                            <img src="image/logo1.png" alt="img">
+                            <canvas id='canvas1'></canvas>
                         </a>
                     </div>
                     <div class="Nav_item">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li class="Get_btn"><a href="#">Get in Touch</a></li>
+                        <ul class="menu">
+                            <!-- <i class="fa fa-home fa-fw"></i><i class="fas fa-concierge-bell"></i>
+                            <i class="fa fa-users fa-fw"></i><i class="fa fa-envelope fa-fw"></i> -->
+                            <li><a href="#" class="hvr-underline-from-center"> Home</a></li>
+                            <li class="srv01 active"><a href="#" class="hvr-underline-from-center"> Services <i class="fas fa-angle-down"></i></a>
+                                <ul class="service-wrp submenu">
+                                    <li >SEO / SMO</li>
+                                    <li >App Development</li>
+                                    <li >Weli Development</li>
+                                    <li >UI/UX Design</li>
+                                    <li >lirand & Identity</li>
+                                    <li >Content Marketing</li>
+                                    <!-- <li >SEO / SMO</b> -->
+                                </ul>
+                        </li>
+                            <li><a href="#" class="hvr-underline-from-center">About</a></li>
+                            <li><a href="#" class="hvr-underline-from-center"> Contact us</a></li>
+                            <!-- hvr-underline-from-left -->
+                            <li class="Get_btn"><a href="#" class="hvr-shutter-out-horizontal">Get Quote</a></li>
                         </ul>
                     </div>
                 </nav>
            </div>
         </header>
         <section class="banner_wrapper"> 
-           <!--    <div id="vantajs"></div>
-                 <div id="net"> 
-            </div>-->
             <div id="element2"> </div>
-            <div id="my-backgroundd"></div>
               <div class="container">
                   <div class="Banner_content">
-                          <div class="Bnr_left">
-                              <h1>
-                                What We Do Responsive Web Development
-                              </h1>
+                          <div class="Bnr_left bnr-cmn">
+                            <div class="hero_text">
+                                      <!--<h1>Blue Web Solutions</h1>-     is-full-width-->
+                                      <h1 class="heading-txt clip-text ">
+                                          <span>What We Do</span>
+                                           <span class="text_word_wrapper">
+                                              <b class="visible-txt">SEO / SMO</b>
+                                              <b class="hidden-txt">App Development</b>
+                                              <b class="hidden-txt">Web Development</b>
+                                              <b class="hidden-txt">UI/UX Design</b>
+                                              <b class="hidden-txt">Brand & Identity</b>
+                                              <b class="hidden-txt">Content Marketing</b>
+                                              <b class="hidden-txt">SEO / SMO</b>
+                                          </span>
+                                      </h1>
+                                    </div> <!-- cd-intro -->
                               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                   Incidunt quasi voluptatem et minima nostrum necessitatibus. 
-                                  Tenetur libero nesciunt fugit aspernatur!</p>
+                                  Tenetur libero nesciunt fugit aspernatur!
+                                  Tenetur libero nesciunt fugit aspernatur!
+                                </p>
+                                <a href="#" class="GT_btn hvr-bounce-to-left" >Get in touch</a>
+                                <!-- <div class="wave">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,90.7C96,85,192,75,288,85.3C384,96,480,128,576,122.7C672,117,768,75,864,58.7C960,43,1056,53,1152,64C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                                </div> -->
                           </div>
-                          <div class="Bnr_right">
-                              <img src="" alt="">
-                          </div>
+                          <!-- <div class="Bnr_right bnr-cmn">
+                           <span class="spn1">   <img src="image/appdev1.png" alt=""></span>
+                          </div> -->
                   </div>  
               </div>
-        </section>  
+              
+        </section>
+          <!--services -->
+        <section class="Our-Service_wrapper">
+            <div class="top_icon_wrp">
+                <a href="#Scroll_bottm" class="top_icon1" title="Click for bottom">
+                    <span class="bullet"></span>
+                </a> 
+          </div>
+            <div class="container">
+                <div class="Srv-heading">
+                      <h2>Our <span>Services</span> </h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  adipisicing elit.<br> Placeat, illo?
+                        dolor sit amet consectetur adipisicing <br> elit. Placeat, illo?
+                      </p>
+                </div>
+                <div class="Service_content">
+                      <div class="a1 Srv_cmn" data-tilt data-tilt-reverse="true">
+                           <figure>
+                            <span class="spn1"> <img src="image/appdev11.gif" alt="img"></span>
+                           </figure>
+                           <figcaption>
+                               <h2>
+                                 App Development
+                               </h2>
+                               <p>Our significant knowledge of mobile application development technologies & frameworks,…</p>
+                               <a href="#">Learn more<i class="fas fa-chevron-right"></i></a>
+                           </figcaption>
+                      </div>
+                      <div class="a2 Srv_cmn" data-tilt data-tilt-reverse="true">
+                        <figure>
+                         <span class="spn1">   <img src="image/web_developing.gif" alt="img"></span>
+                        </figure>
+                        <figcaption>
+                            <h2>
+                                Web Development
+                            </h2>
+                            <p>Our significant knowledge of mobile application development technologies & frameworks,…</p>
+                            <a href="#">Learn more<i class="fas fa-chevron-right"></i></a>
+                        </figcaption>
+                   </div>
+                   <div class="a3 Srv_cmn" id="Scroll_bottm" data-tilt data-tilt-reverse="true">
+                    <figure>
+                     <span class="spn1">   <img src="image/ui.gif" alt="img"></span>
+                    </figure>
+                    <figcaption>
+                        <h2>
+                            UI/UX Design
+                        </h2>
+                        <p>Our significant knowledge of mobile application development technologies & frameworks,…</p>
+                        <a href="#">Learn more<i class="fas fa-chevron-right"></i></a>
+                    </figcaption>
+                   </div>
+                   <div class="a4 Srv_cmn"data-tilt data-tilt-reverse="true">
+                    <figure>
+                     <span class="spn1">   <img src="image/brand1.gif" alt="img"></span>
+                    </figure>
+                    <figcaption>
+                        <h2>
+                            Brand & Identity
+                        </h2>
+                        <p>Our significant knowledge of mobile application development technologies & frameworks,…</p>
+                        <a href="#">Learn more<i class="fas fa-chevron-right"></i></a>
+                    </figcaption>
+                   </div>
+                   <div class="a5 Srv_cmn"data-tilt data-tilt-reverse="true">
+                    <figure>
+                     <span class="spn1">   <img src="image/SEO.gif" alt="img"></span>
+                    </figure>
+                    <figcaption>
+                        <h2>
+                            SEO
+                        </h2>
+                        <p>Our significant knowledge of mobile application development technologies & frameworks,…</p>
+                        <a href="#">Learn more<i class="fas fa-chevron-right"></i></a>
+                    </figcaption>
+                   </div>
+                   <div class="a6 Srv_cmn"data-tilt data-tilt-reverse="true">
+                    <figure>
+                     <span class="spn1">   <img src="image/content.gif" alt="img"></span>
+                    </figure>
+                    <figcaption>
+                        <h2>
+                            Content Marketing
+                        </h2>
+                        <p>Our significant knowledge of mobile application development technologies & frameworks,…</p>
+                        <a href="#">Learn more<i class="fas fa-chevron-right"></i></a>
+                    </figcaption>
+                   </div>
+                </div>
+            </div>
+
+        </section>
     </main>
 
 
     
     <script src="js/jquery.min.js"></script>
-    <!-- <script src="js/vanta.waves.min.js"></script>
-    <script src="three.r119.min.js"></script> -->
+    <script src="js/main.js"></script>
+    <!-- <script src="js/logo.js"></script> -->
     <script src="js/three.min.js"></script>
     <script src="js/vanta.waves.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.birds.min.js"></script>
+    <script src="js/textanime.js"></script>
+    <!-- <script src="js/vanta.birds.min.js"></script> -->
+    <!-- <script src="js/vanilla-tilt.js"></script> -->
+    <script src="js/vanilla-tilt.babel.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.birds.min.js"></script> -->
+    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+    <!-- https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js -->
+    
     <script>
-                VANTA.WAVES({
-        el: '#element2',
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0x1a2028
-        })
+        VANTA.WAVES({
+    el: '#element2',
+    // mouseControls: true,
+    // touchControls: true,
+    // gyroControls: false,
+    // minHeight: 200.00,
+    // minWidth: 200.00,
+    // scale: 1.00,
+    // scaleMobile: 1.00,
+    // color: 0x1a2028
+    mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x6b6b6b,// 0x8c8c8c,
+  shininess: 12.00
+    })
+//     VANTA.BIRDS({
+//   el: "#element2",
+//   mouseControls: true,
+//   touchControls: true,
+//   gyroControls: false,
+//   minHeight: 200.00,
+//   minWidth: 200.00,
+//   scale: 1.00,
+//   scaleMobile: 1.00
+// })
     </script>
-
 </body>
 </html>
