@@ -1,26 +1,35 @@
-// VANTA.WAVES({
-//     el: '#element2',
-//     mouseControls: true,
-//     touchControls: true,
-//     gyroControls: false,
-//     minHeight: 200.00,
-//     minWidth: 200.00,
-//     scale: 1.00,
-//     scaleMobile: 1.00,
-//     color: 0x1a2028
-//     })
+$(document).ready(function(){
+    $(".bg-bubbles").hover(function(){ 
+        $(".bg-bubbles").addClass('transition');
+    } , function (){
+        $(".bg-bubbles").removeClass('transition');
+    })
+})
 
 
-    let destroyBox = document.querySelector("#destroy-box");
-    VanillaTilt.init(destroyBox);
-    
-    document.querySelector("#destroy-button").addEventListener("click", function () {
-        destroyBox.vanillaTilt.destroy();
-    });
-    
-    document.querySelector("#enable-button").addEventListener("click", function () {
-        VanillaTilt.init(destroyBox);
-    });
 
+// ---counter//
+$(document).ready(function() {
 
-    
+    var counters = $(".count");
+    var countersQuantity = counters.length;
+    var counter = [];
+  
+    for (i = 0; i < countersQuantity; i++) {
+      counter[i] = parseInt(counters[i].innerHTML);
+    }
+  
+    var count = function(start, value, id) {
+      var localStart = start;
+      setInterval(function() {
+        if (localStart < value) {
+          localStart++;
+          counters[id].innerHTML = localStart;
+        }
+      }, 40);
+    }
+  
+    for (j = 0; j < countersQuantity; j++) {
+      count(0, counter[j], j);
+    }
+  });
