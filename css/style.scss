@@ -1535,5 +1535,17 @@
         }
     }
 }
-
+.right-sticky{
+    position: fixed;
+    right: -60px;
+    top: 50%;
+    z-index: 20;
+    transform: rotate(90deg);
+    a{
+        background: #262f3a;
+        color: #fff;
+        padding: .7rem 2rem;
+        border-radius: 5px;
+    }
+}
 // -----end---here------//

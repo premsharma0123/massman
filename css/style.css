@@ -1770,4 +1770,20 @@ main header nav .Nav_item .srv01:hover .service-wrp {
   border: 2px solid #ff9800 !important;
   height: 11px;
 }
+
+.right-sticky {
+  position: fixed;
+  right: -60px;
+  top: 50%;
+  z-index: 20;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.right-sticky a {
+  background: #262f3a;
+  color: #fff;
+  padding: .7rem 2rem;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=style.css.map */
