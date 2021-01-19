@@ -4,7 +4,13 @@ $(document).ready(function(){
     } , function (){
         $(".bg-bubbles").removeClass('transition');
     })
-
+    $(".right-sticky").click(function(){
+       $(this).css("opacity","0")
+        $("#contact-form").css({"right":"0%","trasition":"all .3s ease-in-out"});
+    })
+      $(".Close3").click(function(){
+         $(".right-sticky").css("opacity","1");
+      })
     // add & Remove class
     $(".List01").click(function () {
       if(!$(this).hasClass('List_active'))
@@ -82,3 +88,63 @@ $(document).ready(function() {
 
 
   
+  // ------drag-------box------//
+
+dragElement(document.getElementById("contact-form"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.right = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+
+//--bottom--to--top--- and------stickyyy---on----header---//
+//var mybutton = document.querySelector(".BT-top");
+var navbar = document.getElementById("navbar");
+//var sticky = navbar.offsetTop;
+window.onscroll = function() {
+    matrixFunction() //or scroll function--
+};
+function matrixFunction() {
+    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+       // mybutton.style.display = "block";
+        navbar.classList.add("sticky")
+    } else {
+    //    mybutton.style.display = "none";
+        navbar.classList.remove("sticky");
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+};
+//end--here--//
