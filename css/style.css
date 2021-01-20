@@ -2523,6 +2523,77 @@ textarea::placeholder {
           flex: 0 0 auto;
 }
 
+.social-wrp {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  z-index: 7;
+}
+
+.social-wrp .s1, .social-wrp .s2, .social-wrp .s3 {
+  background: #3b5998;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 20px;
+}
+
+.social-wrp .s1:hover, .social-wrp .s2:hover, .social-wrp .s3:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 130px;
+}
+
+.social-wrp .s1:hover b, .social-wrp .s2:hover b, .social-wrp .s3:hover b {
+  display: block;
+}
+
+.social-wrp .s1:hover i, .social-wrp .s2:hover i, .social-wrp .s3:hover i {
+  display: none;
+}
+
+.social-wrp .s2 {
+  background: #00acee !important;
+}
+
+.social-wrp .s3 {
+  background: #00aff0 !important;
+}
+
+.social-wrp .s-cmn01 {
+  padding: 1.1rem 1.5rem;
+  margin: 0 0 .1rem;
+}
+
+.social-wrp .s-cmn01 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  vertical-align: middle;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-wrp .s-cmn01 a b {
+  display: none;
+}
+
+.social-wrp .s-cmn01 a i {
+  font-size: 1em;
+  color: #ffffff;
+  display: block;
+}
+
 .app-development .Bnr_left {
   padding: 10rem 3rem 1rem !important;
 }
@@ -2694,77 +2765,6 @@ textarea::placeholder {
           transform: rotate(0deg) skew(0deg) scale(1);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-
-.app-development .social-wrp {
-  position: fixed;
-  left: 0;
-  top: 50%;
-  z-index: 7;
-}
-
-.app-development .social-wrp .s1, .app-development .social-wrp .s2, .app-development .social-wrp .s3 {
-  background: #3b5998;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  width: 20px;
-}
-
-.app-development .social-wrp .s1:hover, .app-development .social-wrp .s2:hover, .app-development .social-wrp .s3:hover {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  width: 130px;
-}
-
-.app-development .social-wrp .s1:hover b, .app-development .social-wrp .s2:hover b, .app-development .social-wrp .s3:hover b {
-  display: block;
-}
-
-.app-development .social-wrp .s1:hover i, .app-development .social-wrp .s2:hover i, .app-development .social-wrp .s3:hover i {
-  display: none;
-}
-
-.app-development .social-wrp .s2 {
-  background: #00acee !important;
-}
-
-.app-development .social-wrp .s3 {
-  background: #00aff0 !important;
-}
-
-.app-development .social-wrp .s-cmn01 {
-  padding: 1.1rem 1.5rem;
-  margin: 0 0 .1rem;
-}
-
-.app-development .social-wrp .s-cmn01 a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  vertical-align: middle;
-  color: #ffffff;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.app-development .social-wrp .s-cmn01 a b {
-  display: none;
-}
-
-.app-development .social-wrp .s-cmn01 a i {
-  font-size: 1em;
-  color: #ffffff;
-  display: block;
 }
 
 .Web-development_Wrapper .banner_wrapper {

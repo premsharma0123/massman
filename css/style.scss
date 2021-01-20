@@ -2004,7 +2004,62 @@ textarea {
   }
 }
 
-
+    // ----social ----wrp//
+    .social-wrp{
+        position: fixed;
+        left: 0;
+        top: 50%;
+        // @include flex;
+        z-index: 7;
+        .s1{
+            background: #3b5998 ;
+        //    transform: translateX(-120px);
+            transition: $transition;
+            width: 20px;
+            &:hover{
+                    //transform: translateX(0px);
+                   transition: $transition;
+                   width: 130px;
+                   b{
+                      display: block;
+                   }
+                    i{
+                       display: none;
+                    }
+            }
+        }
+        .s2{
+            background: #00acee!important;
+            @extend .s1;
+        }
+        .s3{
+            background: #00aff0!important;
+            @extend .s1;
+        }
+        .s-cmn01{
+            // width: 45px;
+            // height: 45px;
+            padding: 1.1rem 1.5rem;
+            margin: 0 0 .1rem;
+            a{
+                @include flex;
+                flex-wrap: nowrap;
+                vertical-align: middle;
+                color: #ffffff;
+             //   width: 20px;
+                transition: $transition;
+                b{
+                   display: none;
+                }
+                i{
+                    font-size: 1em;
+                    color: #ffffff;
+                    display: block;
+                }
+            }
+        }
+    }
+    // ----end--here---//
 // ------Appp---development---page-----///@at-root
 .app-development{
     .Bnr_left {
@@ -2131,62 +2186,6 @@ textarea {
             }
         }
     }
-    // ----social ----wrp//
-    .social-wrp{
-        position: fixed;
-        left: 0;
-        top: 50%;
-        // @include flex;
-        z-index: 7;
-        .s1{
-            background: #3b5998 ;
-        //    transform: translateX(-120px);
-            transition: $transition;
-            width: 20px;
-            &:hover{
-                    //transform: translateX(0px);
-                   transition: $transition;
-                   width: 130px;
-                   b{
-                      display: block;
-                   }
-                    i{
-                       display: none;
-                    }
-            }
-        }
-        .s2{
-            background: #00acee!important;
-            @extend .s1;
-        }
-        .s3{
-            background: #00aff0!important;
-            @extend .s1;
-        }
-        .s-cmn01{
-            // width: 45px;
-            // height: 45px;
-            padding: 1.1rem 1.5rem;
-            margin: 0 0 .1rem;
-            a{
-                @include flex;
-                flex-wrap: nowrap;
-                vertical-align: middle;
-                color: #ffffff;
-             //   width: 20px;
-                transition: $transition;
-                b{
-                   display: none;
-                }
-                i{
-                    font-size: 1em;
-                    color: #ffffff;
-                    display: block;
-                }
-            }
-        }
-    }
-    // ----end--here---//
 }
 
 // ----end----here-----Appp---development------page========
