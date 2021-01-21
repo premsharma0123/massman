@@ -2827,4 +2827,77 @@ textarea::placeholder {
   width: 100%;
   background-size: cover;
 }
+
+.Brand_wrapper .brand_Wrp .brand1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.ContentMarketing_Wrapper .banner_wrapper {
+  background: #262f3a url(../image/contentbg.gif) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.Seomarketing_wrp .banner_wrapper {
+  background: #262f3a url(../image/seobg.gif) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.Seomarketing_wrp .Seo-wrp .seo1 figure {
+  text-align: center;
+}
+
+.AndroidApp_Wrapper .banner_wrapper {
+  background: #262f3a url(../image/androidbg1.gif) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.AndroidApp_Wrapper .Android_wrp .Android_app2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.Ios_Wrapper .banner_wrapper {
+  background: #262f3a url(../image/ios.gif) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.Ios_Wrapper .Android_wrp .Android_app2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.Hybid_wrapper .banner_wrapper {
+  background: #262f3a url(../image/hybridbg.jpg) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.WebDesign_wrapper .banner_wrapper {
+  background: #262f3a url(../image/webdesignbg.gif) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.E-Commerce_wrapper .banner_wrapper {
+  background: #262f3a url(../image/eccommerce1.gif) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.DynamicWeb_Wrapper .banner_wrapper {
+  background: #262f3a url(../image/dynamicbg1.gif) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */

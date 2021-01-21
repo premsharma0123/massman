@@ -2263,7 +2263,153 @@ textarea {
         width: 100%;
         background-size: cover;
   }
+    .brand_Wrp{
+        .brand1{
+        flex-direction: row-reverse;
+      }
+    }
 }
 
 
 // ------end---here--Brand---development------page========
+
+// --------content---marketing------page========
+.ContentMarketing_Wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/contentbg.gif) no-repeat;
+        width: 100%;
+        background-size: cover;
+  }
+    .Content_Wrp{
+    //     .content1{
+    //     flex-direction: revert;
+    //   }
+    }
+}
+
+
+// ------end---here---------content---marketing------page========
+
+// --------seo---marketing------page========
+.Seomarketing_wrp{
+    .banner_wrapper {
+        background: #262f3a url(../image/seobg.gif) no-repeat;
+        width: 100%;
+        background-size: cover;
+  }
+    .Seo-wrp{
+        .seo1{
+           figure{
+               text-align: center;
+           }
+      }
+    }
+}
+
+
+// ------end---here---------seo---marketing------page========
+
+// --------Android---Android------page========
+.AndroidApp_Wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/androidbg1.gif) no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    .Android_wrp{
+        .Android_app2{
+            flex-direction: row-reverse;
+      }
+    }
+}
+
+
+// ------end---here---------Android---Android------page========
+
+
+// --------IOs---IOS------page========
+.Ios_Wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/ios.gif) no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    .Android_wrp{
+        .Android_app2{
+            flex-direction: row-reverse;
+      }
+    }
+}
+
+
+// ------end---here---------IOs---IOS-------page========
+
+// --------hybrid---hybrid------page========
+.Hybid_wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/hybridbg.jpg) no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    // .Hybrid_wrp{
+    //     .Android_app2{
+    //         flex-direction: row-reverse;
+    //   }
+    // }
+}
+
+
+// ------end---here---------hybrid---hybrid-------page========
+
+
+// --------web---design------page========
+.WebDesign_wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/webdesignbg.gif) no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    // .Hybrid_wrp{
+    //     .Android_app2{
+    //         flex-direction: row-reverse;
+    //   }
+    // }
+}
+
+
+// ------end---here---------web---design-------page========
+
+// --------Eccommerce---------page========
+.E-Commerce_wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/eccommerce1.gif) no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    // .Hybrid_wrp{
+    //     .Android_app2{
+    //         flex-direction: row-reverse;
+    //   }
+    // }
+}
+
+
+// ------end---here-------Eccommerce------page========
+
+// --------Dynamic--website---------page========
+
+.DynamicWeb_Wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/dynamicbg1.gif) no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    // .Hybrid_wrp{
+    //     .Android_app2{
+    //         flex-direction: row-reverse;
+    //   }
+    // }
+}
+
+
+// ------end---here----------Dynamic--website-------page========
