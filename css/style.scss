@@ -2413,3 +2413,28 @@ textarea {
 
 
 // ------end---here----------Dynamic--website-------page========
+
+
+
+// -------About-us--------page========
+
+.About-us_Wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/aboutbg.jpg)repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: bottom;
+        animation: animebg 24s linear infinite;
+        background-attachment: fixed;
+    }
+    // .Hybrid_wrp{
+    //     .Android_app2{
+    //         flex-direction: row-reverse;
+    //   }
+    // }
+}
+
+
+// ------end---here--------About-us-----page========
+
+

@@ -2900,4 +2900,14 @@ textarea::placeholder {
   width: 100%;
   background-size: cover;
 }
+
+.About-us_Wrapper .banner_wrapper {
+  background: #262f3a url(../image/aboutbg.jpg) repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  -webkit-animation: animebg 24s linear infinite;
+          animation: animebg 24s linear infinite;
+  background-attachment: fixed;
+}
 /*# sourceMappingURL=style.css.map */
