@@ -2127,7 +2127,7 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
   overflow: hidden;
   top: 39%;
   right: -50%;
-  border-radius: 5px;
+  border-radius: 15px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   z-index: 5;
@@ -2797,5 +2797,34 @@ textarea::placeholder {
   position: relative;
   z-index: 4;
   background-position: center;
+}
+
+.uidevelopment_wrapper .UIContent_Wrp .UxDesign ul li {
+  padding: .5rem 0 .5rem 1.5rem;
+  font-size: 1em;
+  word-spacing: 1px;
+  line-height: 2;
+  text-transform: capitalize;
+  color: #787878;
+  font-family: 'Gotham Pro Regular';
+  list-style-type: none;
+  position: relative;
+}
+
+.uidevelopment_wrapper .UIContent_Wrp .UxDesign ul li::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: #787878;
+  border-radius: 50%;
+  left: 0;
+  top: 19px;
+}
+
+.Brand_wrapper .banner_wrapper {
+  background: #262f3a url(../image/brandbg.gif) no-repeat;
+  width: 100%;
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */

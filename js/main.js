@@ -5,11 +5,11 @@ $(document).ready(function(){
         $(".bg-bubbles").removeClass('transition');
     })
     $(".right-sticky").click(function(){
-       $(this).css("opacity","0")
+       $(this).css("display","none")
         $("#contact-form").css({"right":"0%","trasition":"all .3s ease-in-out"});
     })
       $(".Close3").click(function(){
-         $(".right-sticky").css("opacity","1");
+         $(".right-sticky").css("display","block");
       })
     // add & Remove class
     $(".List01").click(function () {

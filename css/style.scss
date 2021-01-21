@@ -1790,7 +1790,7 @@ footer{
     overflow: hidden;
     top: 39%;
     right: -50%;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: $transition;
     z-index: 5;
     box-shadow: 0 1px 3px 1px #29313b;
@@ -2225,10 +2225,45 @@ textarea {
         z-index: 4;
         background-position: center;
   }
-//   .UIContent_Wrp{
-//       .UxDesign{
-
-//       }
-//   }
+  .UIContent_Wrp{
+      .UxDesign{
+              ul{
+                  li{
+                      padding: .5rem 0 .5rem 1.5rem;
+                      font-size: 1em;
+                      word-spacing: 1px;
+                      line-height: 2;
+                      text-transform: $cap;
+                      color: #787878;
+                      font-family: 'Gotham Pro Regular';
+                      list-style-type: $none;
+                      position: relative;
+                      &::before{
+                        content: '';
+                        width: 10px;
+                        height: 10px;
+                        position: absolute;
+                        background: #787878;
+                        border-radius: 50%;
+                        left: 0;
+                        top: 19px;
+                      }
+                  }
+              }
+      }
+  }
 }
 // ----end----here-----web---development------page========
+
+
+// --------Brand---development------page========
+.Brand_wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/brandbg.gif) no-repeat;
+        width: 100%;
+        background-size: cover;
+  }
+}
+
+
+// ------end---here--Brand---development------page========
