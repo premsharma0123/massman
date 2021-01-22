@@ -2127,7 +2127,7 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
   overflow: hidden;
   top: 39%;
   right: -50%;
-  border-radius: 15px;
+  border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   z-index: 5;
@@ -2428,6 +2428,14 @@ aside.aside-wrp span i:hover {
 
 .chatbox-popup .chatbox-popup__header .Agent-name b {
   font-size: 14px;
+}
+
+.chatbox-popup .chatbox-popup__header .Agent-name sup p {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #00cc00;
+  display: inline-block;
 }
 
 .chatbox-popup .chatbox-popup__header .chatbox-popup__avatar {
@@ -3204,5 +3212,29 @@ aside.aside-wrp span i:hover {
   background: linear-gradient(45deg, #FDCF41, #FF9800);
   cursor: pointer;
   position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #262f3a;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: .77;
+}
+
+::-webkit-scrollbar-track {
+  background: #dbdbdb;
+  -webkit-box-shadow: inset 0 0 3px 1px #999;
+          box-shadow: inset 0 0 3px 1px #999;
 }
 /*# sourceMappingURL=style.css.map */
