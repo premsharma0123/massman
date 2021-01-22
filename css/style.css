@@ -2333,6 +2333,42 @@ button.chatbox-maximize {
   padding: 10px;
 }
 
+aside.aside-wrp {
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+aside.aside-wrp span {
+  margin: 0 .5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+aside.aside-wrp span i {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+aside.aside-wrp span i:hover {
+  color: #000;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .chatbox-popup {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3001,13 +3037,19 @@ button.chatbox-maximize {
 }
 
 .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote ul {
-  padding: 1rem 0 0 2rem;
+  padding: 1rem 0;
 }
 
 .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote ul li {
   list-style-type: none;
   padding: .5rem 0;
   text-transform: capitalize;
+}
+
+.Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote ul li i {
+  font-size: 15px;
+  color: #999;
+  margin: 0 .5rem;
 }
 
 .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp {

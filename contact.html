@@ -39,8 +39,8 @@
                                     <a href="seo.html">SEO / SMO</a >
                                 </div>
                         </li>
-                            <li><a href="#" class="hvr-underline-from-center">About</a></li>
-                            <li><a href="contact.html" class="hvr-underline-from-center"> Contact us</a></li>
+                            <li><a href="about.html" class="hvr-underline-from-center">About</a></li>
+                            <li><a href="javascript:void(0)" class="hvr-underline-from-center"> Contact us</a></li>
                             <!-- hvr-underline-from-left -->
                             <li class="Get_btn"><a href="#" class="hvr-shutter-out-horizontal">Get Quote</a></li>
                         </ul>
@@ -86,13 +86,13 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, doloribus!</p>
                                     <ul>
                                         <li>
-                                            <p>lorem risofnre sor sdonnr 273001 </p> 
+                                            <p><i class="fa fa-map-marker" aria-hidden="true"></i>lorem risofnre sor sdonnr 273001 </p> 
                                          </li>
                                         <li>
-                                         <p><b>Phone : </b>1-800-369-8527</p>
+                                         <p> <i class="fas fa-phone-alt"></i><b>Phone : </b>1-800-369-8527</p>
                                         </li>
                                         <li>
-                                         <p><b>Email : </b>support@massman.com</p>
+                                         <p><i class="far fa-envelope"></i><b>Email : </b>support@massman.com</p>
                                         </li>
                                     </ul>
                                    </blockquote>
@@ -146,33 +146,33 @@
 <button class="chatbox-close">
     <i class="fa fa-close fa-2x" aria-hidden="true"></i>
   </button>
-<section class="chatbox-popup" id="chatbox-popup">
-  <div class="chatbox-popup__header">
-    <aside style="flex:3">
-      <i class="fa fa-user-circle fa-4x chatbox-popup__avatar" aria-hidden="true"></i>
-    </aside>
-    <aside style="flex:8" class="Agent-name">
-      <h2>Max Austin</h2> <b>Agent (Online)</b> 
-    </aside>
-    <aside style="flex:1">
-      <button class="chatbox-maximize"><i class="fa fa-window-maximize" aria-hidden="true"></i></button>
-    </aside>
-  </div>
-  <div class="chatbox-popup__main">
-    We make it simple  for<br> bussiness and people to talk to each<br> other. Ask us anything.
-  </div>
-  <div class="chatbox-popup__footer">
-    <aside style="flex:1;color:#888;text-align:center;">
-      <i class="fa fa-camera" aria-hidden="true"></i>
-    </aside>
-    <aside style="flex:10">
-      <textarea type="text" placeholder="Type your message here..." autofocus></textarea>
-    </aside>
-    <aside style="flex:1;color:#888;text-align:center;">
-      <i class="fa fa-paper-plane" aria-hidden="true"></i>
-    </aside>
-  </div>
-</section>
+  <section class="chatbox-popup" id="chatbox-popup">
+    <div class="chatbox-popup__header">
+      <aside style="flex:3">
+        <i class="fa fa-user-circle fa-4x chatbox-popup__avatar" aria-hidden="true"></i>
+      </aside>
+      <aside style="flex:8" class="Agent-name">
+        <h2>Max Austin</h2> <b>Agent (Online)</b> 
+      </aside>
+      <aside style="flex:1">
+        <button class="chatbox-maximize" title="minimize">
+          <i class="fa fa-window-minimize" aria-hidden="true"></i>
+        </button>
+      </aside>
+    </div>
+    <div class="chatbox-popup__main">
+      We make it simple  for<br> bussiness and people to talk to each<br> other. Ask us anything.
+    </div>
+    <div class="chatbox-popup__footer">
+      <aside style="flex:10">
+        <textarea type="text" placeholder="Type your message here..." autofocus></textarea>
+      </aside>
+      <aside class="aside-wrp" style="flex:2;color:#888;text-align:center;">
+        <span> <i class="fas fa-paperclip" title="upload"></i></span>
+        <span><i class="fa fa-paper-plane" title="send" aria-hidden="true"></i></span>
+      </aside>
+    </div>
+  </section>
   <!-- end-here--chat -->
 
         <!-- footer -->
@@ -297,19 +297,10 @@
    <!-- -------script----section---- -->
      
      <script src="js/jquery.min.js"></script>
+     <script src="js/jquery-ui.min.js"></script>
      <script src="js/main.js"></script>
      <script src="js/textanime.js"></script>
      <script src="js/vanilla-tilt.babel.min.js"></script>
      <script src="js/owl.carousel.min.js"></script>
-     <script>
-         function drawImg() {
-            //var canvas = document.getElementById('canvas');
-            var canvas = document.getElementById('dragCanvas');
-            canvas.width = this.width;
-            canvas.height = this.height;
-            var ctx = canvas.getContext('2d');
-            ctx.drawImage(this, 0,0 );
-        }
-     </script>
 </body>
  </html>

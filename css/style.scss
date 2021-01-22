@@ -1933,6 +1933,23 @@ textarea {
 button.chatbox-maximize {
     padding: 10px;
 }
+aside.aside-wrp {
+    justify-content: space-around!important;
+    flex-wrap: nowrap!important;
+    @include flex;
+    span{
+        margin: 0 .5rem;
+        transition: $transition;
+        i{
+            transition: $transition;
+            cursor: pointer;
+            &:hover{
+                color: #000;
+                transition: $transition;
+            }
+        }
+    }
+}
 .chatbox-popup {
   @include chabox-container;
    display: none;
@@ -2504,11 +2521,16 @@ button.chatbox-maximize {
                      margin-right: 4rem;
                  }
                  ul{
-                    padding: 1rem 0 0 2rem;
+                    padding: 1rem 0;
                      li{
                          list-style-type: $none;
                          padding: .5rem 0;
                          text-transform: $cap;
+                         i{
+                             font-size: 15px;
+                             color: #999;
+                             margin: 0 .5rem;
+                         }
                      }
                  }
              }

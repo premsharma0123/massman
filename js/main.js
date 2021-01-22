@@ -26,11 +26,11 @@ $(document).ready(function(){
    $(".chatbox-maximize").click(function(){
      $(".chatbox-popup").css("display","none");
    })
-// ------chat---move----//
+// ------chat---move----//  child-wrp
    $( function() {
     $( "#chatbox-popup" ).draggable();
   } );
- 
+
   // ---end----here--//
   //  -----mouse---movement-----
 
@@ -122,10 +122,6 @@ $(document).ready(function() {
   });
 
 
-  
-  // ------drag-------box------//
-
-
 //--bottom--to--top--- and------stickyyy---on----header---//
 //var mybutton = document.querySelector(".BT-top");
 var navbar = document.getElementById("navbar");
@@ -148,3 +144,21 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 };
 //end--here--//
+
+// ----inspect ---disable------//
+
+// $(document).keydown(function(event){
+//   if(event.keyCode==123){
+//       return false;
+//   }
+//   else if (event.ctrlKey && event.shiftKey && event.keyCode==73){        
+//            return false;
+//   }
+// });
+
+// $(document).on("contextmenu",function(e){        
+//  e.preventDefault();
+// });
+
+
+// ----end-----here----//
