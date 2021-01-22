@@ -1930,7 +1930,9 @@ textarea {
     color: $font-color;
   }
 }
-
+button.chatbox-maximize {
+    padding: 10px;
+}
 .chatbox-popup {
   @include chabox-container;
    display: none;
@@ -1938,7 +1940,7 @@ textarea {
   bottom: calc(2 * #{$base-dimension} + #{$base-button-size});
   right: $base-dimension;
   width: $base-height;
-  height: auto;
+  height: 465px;
   background-color: $background-color;
  // border-radius: $base-dimension;
   border-radius: 5px;
@@ -1950,6 +1952,7 @@ textarea {
     border-top-left-radius: $base-border-radius;
     border-bottom-right-radius: 100%30px;
     border-bottom-left-radius: 100%30px;
+    cursor: grabbing;
          .Agent-name{
              h2{
                  font-size: 1.1em;

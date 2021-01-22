@@ -2329,6 +2329,10 @@ textarea::placeholder {
   color: #888;
 }
 
+button.chatbox-maximize {
+  padding: 10px;
+}
+
 .chatbox-popup {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2344,7 +2348,7 @@ textarea::placeholder {
   bottom: calc(2 * 16px + 52px);
   right: 16px;
   width: 377px;
-  height: auto;
+  height: 465px;
   background-color: #fff;
   border-radius: 5px;
   z-index: 99;
@@ -2371,6 +2375,8 @@ textarea::placeholder {
   border-top-left-radius: 5px;
   border-bottom-right-radius: 100% 30px;
   border-bottom-left-radius: 100% 30px;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 
 .chatbox-popup .chatbox-popup__header h1 {
