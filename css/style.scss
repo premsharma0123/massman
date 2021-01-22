@@ -2438,3 +2438,201 @@ textarea {
 // ------end---here--------About-us-----page========
 
 
+// -------About-us--------page========
+
+.Contact-Us_Wrapper{
+    .banner_wrapper {
+        background: #262f3a url(../image/contact.jpg)repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: top;
+        animation: animebg 24s linear infinite;
+        background-attachment: fixed;
+    }
+ .contact-form_wrapper{
+    //  @include flex;
+    //  justify-content: space-between;
+     padding: 6rem 0 0;
+     width: 80%;
+     margin: 0 auto;
+     .Contact_cmn01{
+         width: 100%;
+     }
+     .left_side01{
+        div#map-canvas {
+            width: 100%;
+            height: 32rem;
+            // border: 2px solid;
+            iframe {
+                border-radius: 5px;
+                border: 2px solid #000;
+                box-shadow: 0 0 7px 0px #999999a8;
+            }
+        }
+     }
+     .right-side01{
+         @include flex;
+         justify-content: space-between;
+         align-items: inherit;
+         padding: 4rem 0 0;
+         .L01{
+             background: #9999990f;
+             padding: 1rem;
+           }
+         .Rfm_cmn{
+             width: 48%;
+             blockquote{
+                 h2{
+                     font-size: 2.3em;
+                     padding: .6rem 0;
+                     line-height: 1.5;
+                     word-spacing: 1px;
+                 }
+                 p{
+                     font-size: 1em;
+                     line-height: 1.5;
+                     word-spacing: 1px;
+                 }
+                 >p{
+                     font-weight: bold;
+                     color: #262f3a;
+                     padding: .5rem 0 1.6rem;
+                     border-bottom: 1px solid #99999963;
+                     margin-right: 4rem;
+                 }
+                 ul{
+                    padding: 1rem 0 0 2rem;
+                     li{
+                         list-style-type: $none;
+                         padding: .5rem 0;
+                         text-transform: $cap;
+                     }
+                 }
+             }
+            }
+         .form_wrp{
+            //  width: 90%;
+             margin: 0 auto;
+             background: #eee;
+             padding: 1.4rem;
+             border-radius: 5px;
+             .form_heading{
+                 h2{
+                     font-size: 1.4em;
+                     text-transform: capitalize;
+                     padding: 1rem 0;
+                     line-height: 1.5;
+                 }
+                 p{
+                     line-height: 1.5;
+                     word-spacing: 1px;
+                     font-size: 1em;
+                     padding-bottom: 1rem;
+                 }
+             }
+             form{
+                 width: 100%;
+                     .Cont_Cmn2{
+                         width: 100%;
+                         label{
+                             width: 100%;
+                            //  padding: 0.7rem 0;
+                            //  display: block;
+                         }
+
+                         // Chrome, Safari, Edge, Opera //
+                            input::-webkit-outer-spin-button,
+                            input::-webkit-inner-spin-button {
+                            -webkit-appearance: none;
+                            margin: 0;
+                            }
+                            // Firefox //
+                            input[type=number] {
+                            -moz-appearance: textfield;
+                            }
+
+                         input,textarea{
+                            width: 100%;
+                            padding: .9rem .5rem;
+                            border-radius: 5px;
+                            text-transform: $cap;
+                            margin: .9rem 0;
+                            border: 1px solid #999;
+                            outline: none;
+                            transition: $transition;
+                            &:focus{
+                             transition: $transition;
+                             box-shadow: 0 0px 4px 0px #607d8bbf;
+                             animation: focus .4s;
+                            }
+                            @keyframes focus {
+                                0%{
+                                    transform: scale(0.95);
+                                    transition: $transition;
+                                }
+                                100%{
+                                    transform: scale(1);
+                                    transition: $transition;
+                                }
+                            }
+                        }
+                     }
+                     .f4{
+                         width: 100%;
+                         textarea{
+                             width: 100%;
+                             height: 100px;
+                         }
+                     }
+                     .f5{
+                         width: 100%;
+                         padding: 0 0 1rem;
+                         label{
+                             position: relative;
+                             height: 50px;
+                             width: 100%;
+                             display: inline-block;
+                             &:active,&:focus,&:focus-within{
+                                 transition: $transition;
+                                 &::before{
+                                    width: 100%;
+                                    transition: $transition;
+                                 }
+                             }
+                             &::before{
+                                content: '';
+                                width: 0%;
+                                height: 52px;
+                                background: #ffffff54;
+                                position: absolute;
+                                z-index: 5;
+                                top: 14px;
+                                border-radius: 5px;
+                                transition: $transition;
+                                cursor: pointer;
+                                color: #000000;
+                            }
+                         }
+                         input{
+                             width: 100%;
+                             font-size: 1.1em;
+                             padding: .9rem .6rem;
+                             font-weight: bold;
+                             color: #000000;
+                             transition: $transition;
+                             background: linear-gradient(45deg, #FDCF41, #FF9800);
+                             cursor: pointer;
+                             position: relative;
+                            // z-index: 2;
+                         }
+                     }
+             }
+         }
+        
+     }
+  }
+}
+
+
+// ------end---here--------About-us-----page========
+
