@@ -1644,9 +1644,9 @@ main header nav .Nav_item .srv01:hover .service-wrp {
 }
 
 .Testimonial_wrapper .Testimonial_content .testimonial_child {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1.5rem 2rem 1.5rem 1.5rem;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 3px 3px #607d8b33;
           box-shadow: 0 0 3px 3px #607d8b33;
@@ -1669,6 +1669,7 @@ main header nav .Nav_item .srv01:hover .service-wrp {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 1rem;
 }
 
 .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft {
@@ -1699,8 +1700,9 @@ main header nav .Nav_item .srv01:hover .service-wrp {
 }
 
 .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right {
-  width: 55%;
+  width: 53%;
   text-align: center;
+  margin: 0 1rem 0 0;
 }
 
 .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right p {
@@ -1727,7 +1729,7 @@ main header nav .Nav_item .srv01:hover .service-wrp {
   content: '';
   background: url(../image/qoute.png) no-repeat;
   position: absolute;
-  right: 72px;
+  right: 17px;
   bottom: 15px;
   width: 7%;
   height: 18px;
@@ -2126,7 +2128,7 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
   position: fixed;
   overflow: hidden;
   top: 39%;
-  right: -50%;
+  right: -100%;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -3230,11 +3232,591 @@ aside.aside-wrp span i:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   opacity: .77;
+  background: #262f3aa1;
 }
 
 ::-webkit-scrollbar-track {
   background: #dbdbdb;
   -webkit-box-shadow: inset 0 0 3px 1px #999;
           box-shadow: inset 0 0 3px 1px #999;
+}
+
+.main-bar {
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .banner_wrapper .Banner_content .Bnr_left h1 {
+    font-size: 2.3em;
+  }
+  .banner_wrapper .Banner_content .Bnr_left p {
+    padding: 1rem 4rem;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figure b {
+    -webkit-transform: translate(-18px, 50px);
+            transform: translate(-18px, 50px);
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figure b i {
+    font-size: 2em;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figcaption h3 {
+    font-size: 2.3em;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figcaption p {
+    padding: .6rem 1rem;
+    font-size: 1.1em;
+  }
+  .Achivement_wapper .Achiv_wave {
+    bottom: -38px;
+  }
+  .About_wrapper {
+    padding: 3rem 0 1rem;
+  }
+  .Portfolio-wrapper .Port_content .port_tab-content ul li {
+    width: 30%;
+  }
+  .Portfolio-wrapper .Port_content .port_tab-content ul li .port-web figcaption p {
+    word-break: break-all;
+  }
+  .Testimonial_wrapper {
+    padding: 3rem 0 1rem;
+  }
+  .Our-Service_wrapper .Service_content .Srv_cmn {
+    width: 29%;
+    margin: .6rem;
+  }
+  footer .Footer-content .Ft_cmno1 {
+    width: 28%;
+    margin: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner_wrapper .Banner_content .Bnr_left a {
+    font-size: 1em;
+    padding: 1.1rem 2.3rem;
+  }
+  .banner_wrapper .Banner_content .Bnr_left p {
+    line-height: 1.8;
+  }
+  .Our-Service_wrapper .Srv-heading h2 {
+    font-size: 2em;
+    padding: 0rem 0 .5rem;
+  }
+  .Our-Service_wrapper .Service_content {
+    padding: 3rem 0 1rem;
+  }
+  .Our-Service_wrapper .Service_content .Srv_cmn {
+    width: 45%;
+    margin: .6rem;
+  }
+  .Our-Service_wrapper .Service_content .Srv_cmn figcaption p {
+    font-size: 15px;
+  }
+  .Our-Service_wrapper .Service_content .Srv_cmn figcaption a {
+    font-size: 1em;
+  }
+  .Achivement_wapper {
+    margin: 3rem 0 1rem;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figure span {
+    height: 125px;
+    width: 125px;
+  }
+  .About_wrapper .About_content .Abt_right h2 {
+    font-size: 1.7em;
+  }
+  .About_wrapper .About_content .Abt_right p {
+    padding: 1rem 0 2rem;
+    line-height: 1.9;
+  }
+  .Testimonial_wrapper {
+    padding: 2rem 0 3rem;
+  }
+  .Portfolio-wrapper .port-heading h2 {
+    font-size: 2em;
+  }
+  .Portfolio-wrapper {
+    padding: 3rem 0 3rem;
+  }
+  .Connect_unorder li {
+    padding: 0 0 0.2rem !important;
+  }
+  .Connect_unorder li a {
+    margin: 1.2rem 1rem 0rem 0 !important;
+  }
+  footer .Footer-content .Ft_cmno1 h2 a img {
+    max-width: 80%;
+    text-align: center;
+  }
+  footer .Footer-content .Ft_cmno1 h2 {
+    font-size: 1.3em;
+    line-height: 1.5;
+    padding: 0 0 .6rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .main-bar {
+    right: 40px;
+    top: 27px;
+    display: block !important;
+    cursor: pointer;
+    position: absolute;
+  }
+  .main-bar div {
+    width: 35px;
+    height: 4px;
+    margin: 6px 0;
+    background-image: linear-gradient(45deg, #ffffff, #faf9fc);
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+  }
+  .main-bar.activefile {
+    top: 38px !important;
+  }
+  .activefile .a {
+    -webkit-transform: rotateZ(43deg);
+            transform: rotateZ(43deg);
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+  }
+  .activefile .b {
+    opacity: 0;
+  }
+  .activefile .c {
+    -webkit-transform: rotateZ(-46deg);
+    transform: rotateZ(-46deg);
+    top: 0px;
+    position: absolute;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    margin: 6px 0 0 0px;
+  }
+  .myHeader {
+    width: 100% !important;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 76px;
+    overflow-x: hidden;
+    display: none;
+    left: 0px;
+    background: #262f3a;
+    text-align: center;
+    border-bottom: 3px solid #FF9800;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 1rem 0 0;
+    z-index: 40;
+  }
+  .myHeader ul {
+    display: block !important;
+  }
+  .myHeader ul li {
+    display: block !important;
+  }
+  main header nav .Nav_item ul .Get_btn a {
+    display: none;
+  }
+  main header nav .Nav_item ul li {
+    margin: 0 0rem;
+    border-bottom: 1px solid #ffffff3d;
+    padding: .6rem 0;
+  }
+  main header nav .Nav_item ul li:nth-child(4) {
+    border-bottom: inherit !important;
+    padding: 0.6rem 0 0 !important;
+  }
+  main header nav .Nav_item .srv01 .service-wrp {
+    width: 50%;
+    display: inherit !important;
+    position: relative;
+    left: 0px;
+    top: 4px;
+    opacity: 0;
+    margin: 0 auto;
+  }
+  .Our-Service_wrapper::before {
+    height: 191px;
+    top: -188px;
+  }
+  .banner_wrapper .Banner_content .Bnr_left p {
+    padding: 1rem 0rem;
+  }
+  .banner_wrapper .Banner_content .Bnr_left h1 {
+    font-size: 2em;
+  }
+  .banner_wrapper {
+    height: 607px;
+  }
+  .About_wrapper .About_content .Abt_right h2 {
+    font-size: 1.5em;
+  }
+  .Achivement_wapper {
+    margin: 2rem 0 1rem;
+  }
+  .About_wrapper .About_content .Abt_right p {
+    font-size: 15px;
+  }
+  .contact-form {
+    right: -100%;
+  }
+  .Portfolio-wrapper .Port_content .port_tab-content ul li .port-web figcaption p {
+    font-size: 15px;
+  }
+  .Portfolio-wrapper .Port_content .port_tab-content ul li .port-web figcaption a {
+    font-size: 15px;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figure b {
+    -webkit-transform: translate(-19px, 47px);
+            transform: translate(-19px, 47px);
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right p {
+    font-size: 15px;
+    margin: 0 0 2rem;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft figure h4 {
+    font-size: 1em;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft {
+    width: 100%;
+    padding: 1rem 0 0;
+    text-align: center;
+    border-bottom-right-radius: inherit;
+    border-top-left-radius: inherit;
+    border: inherit;
+    background: inherit;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft figure img {
+    max-width: 28%;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right {
+    width: 100%;
+    text-align: center;
+    margin: 0 1rem 0 0;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .owl-dots {
+    right: 38%;
+    bottom: 18px;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right p::after {
+    right: 59px;
+    bottom: 15px;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft figure h4 {
+    font-size: 1em;
+    padding: 2rem 0 1rem;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .owl-dots button.owl-dot {
+    width: 2rem;
+    height: 8px;
+  }
+  .Testimonial_wrapper .testimonial-heading h2 {
+    font-size: 2em;
+  }
+  .Testimonial_wrapper .Testimonial_content {
+    padding: 3rem 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .bg-bubbles li {
+    width: 20px;
+    height: 20px;
+  }
+  .banner_wrapper .Banner_content .Bnr_left h1 {
+    font-size: 1.9em;
+  }
+  .banner_wrapper .Banner_content .Bnr_left {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 1rem 1rem;
+  }
+  .banner_wrapper .Banner_content .Bnr_left p {
+    padding: 1rem 0rem;
+    font-size: 15px;
+  }
+  .social-wrp {
+    display: none;
+  }
+  footer .Footer-content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .Footer-content .Ft_cmno1 {
+    width: 41%;
+    margin: 0 1rem 2rem;
+  }
+  footer .Footer-content .Ft_cmno1 h2 a img {
+    max-width: 100%;
+  }
+  footer .Footer-content .Ft_cmno1 ul li label input {
+    padding: 1rem .6rem;
+    font-size: 14px;
+    margin: .5rem 0 .3rem;
+  }
+  footer .Footer-content .Ft_cmno1 ul .Connected .Connect_unorder li a {
+    width: 35px;
+    height: 35px;
+  }
+  footer .Footer-content .Ft_cmno1 ul .Connected .Connect_unorder li a i {
+    padding: .7rem .5rem;
+  }
+  .banner_wrapper {
+    height: 528px;
+  }
+  .Our-Service_wrapper::before {
+    height: 142px;
+    top: -141px;
+  }
+  .Our-Service_wrapper .Srv-heading h2, .Portfolio-wrapper .port-heading h2, .Testimonial_wrapper .testimonial-heading h2 {
+    font-size: 1.7em;
+  }
+  .Our-Service_wrapper .Service_content .Srv_cmn figure img {
+    max-width: 54%;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figure span {
+    height: 114px;
+    width: 114px;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figure b {
+    -webkit-transform: translate(-19px, 41px);
+            transform: translate(-19px, 41px);
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figcaption h3 {
+    font-size: 2em;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figcaption span {
+    font-size: 2em;
+  }
+  .Achivement_wapper {
+    margin: 2rem 0 1rem;
+    padding: 5rem 0 6rem;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figcaption p {
+    padding: .6rem 1rem;
+    font-size: 1em;
+  }
+  .About_wrapper .About_content .Abt_cmn01 {
+    width: 100%;
+  }
+  .About_wrapper .About_content .Abt_right h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .Portfolio-wrapper .Port_content .port_tab-content ul li {
+    width: 46%;
+  }
+  .contact-form .child-wrp form .d1 label input {
+    font-size: 15px;
+  }
+  footer .Copyright_wrp {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cpy-lft.cpy-cmn {
+    padding: 0 0 1rem;
+  }
+  .Achivement_wapper .Achiv_wave {
+    bottom: -35px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  main header nav .logo a img {
+    max-width: 80%;
+  }
+  .main-bar {
+    right: 25px;
+    top: 23px;
+  }
+  .main-bar.activefile {
+    top: 34px !important;
+  }
+  main header nav .Nav_item ul li a {
+    font-size: 1em;
+    padding: .6rem 0 .6rem;
+  }
+  .banner_wrapper .Banner_content .Bnr_left h1 {
+    font-size: 1.5em;
+  }
+  .banner_wrapper .Banner_content .Bnr_left {
+    width: 100%;
+    padding: 5rem 1rem 1rem;
+  }
+  .banner_wrapper {
+    height: 497px;
+  }
+  .Our-Service_wrapper::before {
+    height: 113px;
+    top: -113px;
+    background-position: center;
+  }
+  .Our-Service_wrapper .top_icon1 {
+    top: 17px;
+  }
+  .contact-form {
+    width: 274px;
+  }
+  .Our-Service_wrapper {
+    padding: 6rem 0 0;
+  }
+  .banner_wrapper .Banner_content .Bnr_left {
+    padding: 4rem 1rem 1rem;
+  }
+  .Our-Service_wrapper .Srv-heading h2, .Portfolio-wrapper .port-heading h2, .Testimonial_wrapper .testimonial-heading h2 {
+    font-size: 1.6em;
+  }
+  .Our-Service_wrapper .Srv-heading p, .Portfolio-wrapper .port-heading p, .Testimonial_wrapper .testimonial-heading p {
+    font-size: 15px;
+  }
+  .Our-Service_wrapper .Service_content .Srv_cmn {
+    width: 100%;
+    margin: .6rem;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figcaption h3 {
+    font-size: 1.8em;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li figcaption span {
+    font-size: 1.8em;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li {
+    width: 48%;
+    margin: 0 0 2rem;
+  }
+  .Achivement_wapper .Achiv_wave {
+    bottom: -10px;
+  }
+  .Achivement_wapper {
+    margin: 2rem 0 1rem;
+    padding: 5rem 0 3rem;
+  }
+  .About_wrapper .About_content .Abt_right h2 {
+    font-size: 1.3em;
+  }
+  .About_wrapper .About_content .Abt_cmn01 {
+    text-align: center;
+  }
+  .Portfolio-wrapper {
+    padding: 2rem 0 1rem;
+    margin: 1rem 0 0;
+  }
+  .Portfolio-wrapper .Port_content .Port_tab li {
+    padding: .6rem .2rem;
+  }
+  .Portfolio-wrapper .Port_content .Port_tab li a {
+    margin: 0 .5rem;
+    padding: .8rem 1.4rem;
+  }
+  .Portfolio-wrapper .Port_content .port_tab-content {
+    padding: 3rem 0 0;
+  }
+  .Portfolio-wrapper .Port_content .port_tab-content ul li {
+    width: 100%;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .owl-dots {
+    right: 31%;
+    bottom: 18px;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .owl-dots button.owl-dot {
+    width: 1.6rem;
+    height: 6px;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .owl-dots button.owl-dot.active {
+    height: 9px;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right {
+    margin: 0 .0rem 0 0;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right p::after {
+    right: 25px;
+    bottom: 15px;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right p {
+    font-size: 15px;
+    margin: 0 0 2rem;
+    padding: .8rem;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild {
+    margin: 0 0;
+  }
+  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft figure img {
+    max-width: 46%;
+  }
+  footer {
+    padding: 2rem 0 0;
+    margin: 5rem 0 0;
+  }
+  footer .Footer-content .Ft_cmno1 {
+    width: 100%;
+    margin: 0 1rem 2rem;
+    text-align: center;
+  }
+  footer .Footer-content .Ft_cmno1 ul .Connected .Connect_unorder {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  footer .Footer-content .Ft_cmno1 h2 a img {
+    max-width: 58%;
+  }
+  footer .Footer-content .Ft_cmno1 ul .Submit input {
+    font-size: 1em;
+    padding: .9rem .6rem;
+  }
+  footer .Copyright_wrp .cpy-rgt p {
+    text-align: center;
+  }
+  .contact-form {
+    right: -200%;
+  }
+  main header nav .Nav_item .srv01 .service-wrp {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .banner_wrapper .Banner_content .Bnr_left h1 {
+    font-size: 1.4em;
+  }
+  .banner_wrapper .Banner_content .Bnr_left p {
+    padding: 1rem 0rem;
+    font-size: 14px;
+  }
+  .banner_wrapper {
+    height: 557px;
+  }
+  .Our-Service_wrapper::before {
+    background-position: right;
+  }
+  .Our-Service_wrapper .top_icon1 {
+    top: -5px;
+  }
+  .Our-Service_wrapper {
+    padding: 5rem 0 0;
+  }
+  .Achivement_wapper .Achievement_content .Achieve_unord li {
+    width: 100%;
+    margin: 0 0 2rem;
+  }
+  .Portfolio-wrapper .Port_content .Port_tab li {
+    padding: .6rem .2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .banner_wrapper .Banner_content .Bnr_left a {
+    font-size: 1em;
+    padding: 1rem 2.3rem;
+  }
+  .chatbox-popup {
+    width: 337px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

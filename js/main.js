@@ -42,13 +42,21 @@ $(document).ready(function(){
       // });
 
 
+    //bar 
+
+    jQuery('.main-bar').click(function(e) {
+      jQuery(this).toggleClass('activefile');
+      e.preventDefault();
+      jQuery('.myHeader').slideToggle();
+    });
+
 // ---end---
     // ----slider-----section ---//
 
     $('.slider1').owlCarousel({
       loop: true,
       margin: 0,
-      autoplay: true,
+   //   autoplay: true,
     //  nav: true,
       autoplayTimeout: 4000,
       smartSpeed: 1500,
