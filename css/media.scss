@@ -274,7 +274,12 @@
     .Testimonial_wrapper .Testimonial_content {
         padding: 3rem 0 1rem;
     }
-  
+
+    //----app--deve----page---//
+    .app-development .AppConten_wrp .App_cnt .left-cmn01 h2 {
+        font-size: 2em;
+    }
+    // -----end----here----------//
 }
 
 @media only screen and(max-width:767px){
@@ -376,6 +381,28 @@
     .Achivement_wapper .Achiv_wave {
         bottom: -35px;
     }
+    
+    //----app--deve----page---//
+    .app-development .AppConten_wrp .App_cnt .left-cmn01 h2 {
+        font-size: 1.6em;
+    }
+    .app-development .AppConten_wrp {
+        padding: 2rem 0 6rem;
+    }
+    .app-development .Bnr_left {
+        padding: 7rem 1rem 1rem !important;
+    }
+    .app-development  .banner_wrapper {
+        height: 454px;
+    }
+    .app-development .AppConten_wrp .App_cnt .left-cmn01 {
+        width: 100%;
+        margin: 0 0 1rem;
+    }
+    .app-development .AppConten_wrp .App_cnt {
+        padding: 3rem 0 1rem;
+    }
+    // -----end----here----------//
 }
 
 @media only screen and(max-width:480px){
@@ -528,6 +555,29 @@
     main header nav .Nav_item .srv01 .service-wrp {
         width: 80%;
     }
+     //----app--deve----page---//
+    .app-development .Bnr_left {
+        padding: 7rem 1rem 1rem !important;
+    }
+    .app-development  .banner_wrapper {
+        height: 454px;
+    }
+    .app-development .AppConten_wrp .App_cnt .left-cmn01 {
+        width: 100%;
+        margin: 0 0 1rem;
+        text-align: center;
+    }
+    .app-development .AppConten_wrp .App_cnt .left-cmn01 h2 {
+        font-size: 1.3em;
+    }
+    .app-development .AppConten_wrp .App_cnt {
+        padding: 1rem 0 1rem;
+    }
+    .app-development .AppConten_wrp .App_cnt .left-cmn01 p {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+    // -----end----here----------//
 }
 
 @media only screen and(max-width:375px){
@@ -564,4 +614,14 @@
         padding: 1rem 2.3rem;
     }
     .chatbox-popup{    width: 337px;}
+
+        //----app--deve----page---//
+    .app-development .AppConten_wrp .App_cnt .left-cmn01 p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .chatbox-popup {
+        width: 337px;
+    }s
+    // -----end----here----------//
 }
