@@ -1896,6 +1896,9 @@ footer .Footer-content .Ft_cmno1 h2 {
   padding: 0 0 .6rem;
   border-bottom: 1px solid #999;
   display: inline-block;
+  background: linear-gradient(45deg, #FDCF41, #FF9800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 footer .Footer-content .Ft_cmno1 h2 a img {

@@ -180,6 +180,7 @@ $(document).on("contextmenu",function(e){
         return false;
     }
   };
+
   // ----disable ----ctrl----S---//
   $(document).bind('keydown', function(e) {
     if(e.ctrlKey && (e.which == 83)) {
@@ -188,6 +189,7 @@ $(document).on("contextmenu",function(e){
       return false;
     }
   });
+
   // ----disable ----ctrl---C--//
   $(window).keydown(function(e){
     var keystroke = String.fromCharCode(event.keyCode).toLowerCase();
@@ -196,10 +198,11 @@ $(document).on("contextmenu",function(e){
     event.returnValue = false; // disable Ctrl+C
     }
   })
+
  // ----disable ----ctrl--F--//
 // ----end-----here----//
 $(window).keydown(function(e){
   if ((e.ctrlKey || e.metaKey) && e.keyCode === 70) {
       e.preventDefault();
   }
-});
+});      
