@@ -3872,6 +3872,9 @@ aside.aside-wrp span i:hover {
     line-height: 1.8;
     padding: 0 1rem;
   }
+  footer .Copyright_wrp .cpy-cmn {
+    text-align: center;
+  }
   footer .Footer-content .Ft_cmno1 ul li p {
     font-size: 15px;
   }
