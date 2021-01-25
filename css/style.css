@@ -3246,6 +3246,11 @@ aside.aside-wrp span i:hover {
   position: relative;
 }
 
+.Contact-Us_Wrapper .Contact_wrp h2 {
+  -webkit-animation: animebg 24s linear infinite;
+          animation: animebg 24s linear infinite;
+}
+
 .Thanks_Wrapper .Our-Service_wrapper::before {
   display: none !important;
 }
