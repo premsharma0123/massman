@@ -112,6 +112,16 @@
         line-height: 1.5;
         padding: 0 0 .6rem;
     }
+    // ---contact ---page---//
+    .Contact-Us_Wrapper .contact-form_wrapper {
+        padding: 6rem 0 0;
+        width: 95%;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote h2 {
+        font-size: 2.1em;
+        padding: .6rem 0;
+    }
+    // ---end------here-----//
 }
 
 @media only screen and(max-width:992px){
@@ -171,6 +181,9 @@
                 display: block!important;
             }
         }
+    }
+    main header nav .Nav_item ul{
+        overflow: hidden;
     }
     main header nav .Nav_item ul .Get_btn a {
         display: none;
@@ -307,7 +320,7 @@
     }
     footer .Footer-content .Ft_cmno1 {
         width: 41%;
-        margin: 0 1rem 2rem;
+        margin: 0 1rem 1rem;
     }
     footer .Footer-content .Ft_cmno1 h2 a img {
         max-width: 100%;
@@ -401,6 +414,24 @@
     }
     .app-development .AppConten_wrp .App_cnt {
         padding: 3rem 0 1rem;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote h2 {
+        font-size: 1.6em;
+        padding: .6rem 0;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote > p {
+        margin-right: 1rem;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote ul li {
+        font-size: 15px;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper {
+        padding: 2rem 0 0;
+        width: 100%;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn {
+        width: 100%;
+        margin: 0 0 1rem;
     }
     // -----end----here----------//
 }
@@ -588,6 +619,28 @@
     .chatbox-popup {
         width: 337px;
     }
+    footer .Footer-content .Ft_cmno1 ul .Submit::before{
+        width: 0%;
+        height: 46px;
+        left: 0;
+    }
+    footer .Copyright_wrp .cpy-rgt p a {    
+        line-height: 1.8;
+        padding: 0 1rem;
+    }
+    footer .Footer-content .Ft_cmno1 ul li p {
+        font-size: 15px;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote h2 {
+        font-size: 1.4em;
+        padding: .6rem 0;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp .form_heading h2 {
+        padding: 0rem 0 1rem;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp .form_heading p {
+        font-size: 15px;
+    }
     // -----end----here----------//
 }
 
@@ -633,6 +686,18 @@
     }
     .app-development .Bnr_left {
         padding: 4rem 1rem 1rem !important;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote h2 {
+        font-size: 1.2em;
+        padding: .6rem 0;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote > p {
+        margin-right: 1rem;
+        font-size: 15px;
+    }
+    .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn {
+        margin: 0 0 1rem;
+        padding: 1rem;
     }
     // -----end----here----------//
 }
