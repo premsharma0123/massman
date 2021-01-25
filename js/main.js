@@ -19,6 +19,7 @@ $(document).ready(function(){
           $(this).addClass("List_active");        
       }
     });
+
     // ---end---here---//
    $(".chatbox-open").click(function(){
       $(".chatbox-popup").fadeToggle("slow");
@@ -153,6 +154,9 @@ function topFunction() {
 };
 //end--here--//
 
+
+
+
 // ----inspect ---disable------//
 
 $(document).keydown(function(event){
@@ -169,4 +173,33 @@ $(document).on("contextmenu",function(e){
 });
 
 
+// ----disable ----ctrl----U---//
+  document.onkeydown = function(e) {
+    if (e.ctrlKey && 
+        (e.keyCode === 85 )) {
+        return false;
+    }
+  };
+  // ----disable ----ctrl----S---//
+  $(document).bind('keydown', function(e) {
+    if(e.ctrlKey && (e.which == 83)) {
+      e.preventDefault();
+      // alert('Ctrl+S');
+      return false;
+    }
+  });
+  // ----disable ----ctrl---C--//
+  $(window).keydown(function(e){
+    var keystroke = String.fromCharCode(event.keyCode).toLowerCase();
+    if (event.ctrlKey &&  (keystroke == 'c' || keystroke == 'v')) {
+    // alert("let's see");
+    event.returnValue = false; // disable Ctrl+C
+    }
+  })
+ // ----disable ----ctrl--F--//
 // ----end-----here----//
+$(window).keydown(function(e){
+  if ((e.ctrlKey || e.metaKey) && e.keyCode === 70) {
+      e.preventDefault();
+  }
+});
