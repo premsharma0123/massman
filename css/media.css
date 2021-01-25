@@ -642,6 +642,12 @@
   .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp .form_heading p {
     font-size: 15px;
   }
+  .right-sticky {
+    right: -61px;
+  }
+  .right-sticky a {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 375px) {

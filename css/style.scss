@@ -1536,15 +1536,22 @@
 // --------------------------------
 .right-sticky{
     position: fixed;
-    right: -60px;
+    right: -69px;
     top: 50%;
     z-index: 20;
     transform: rotate(90deg);
     a{
-        background: #262f3a;
-        color: #fff;
+        background: linear-gradient(45deg, #FDCF41, #FF9800);//#262f3a;
+        color: #000000;
         padding: .7rem 2rem;
         border-radius: 5px;
+        font-weight: bold;
+        font-size: 1.1em;
+        transition: $transition;
+        &:hover{
+            transition: $transition;
+            opacity: .77;
+        }
     }
 }
 // -----end---here------//

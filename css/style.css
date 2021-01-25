@@ -1766,7 +1766,7 @@ main header nav .Nav_item .srv01:hover .service-wrp {
 
 .right-sticky {
   position: fixed;
-  right: -60px;
+  right: -69px;
   top: 50%;
   z-index: 20;
   -webkit-transform: rotate(90deg);
@@ -1774,10 +1774,20 @@ main header nav .Nav_item .srv01:hover .service-wrp {
 }
 
 .right-sticky a {
-  background: #262f3a;
-  color: #fff;
+  background: linear-gradient(45deg, #FDCF41, #FF9800);
+  color: #000000;
   padding: .7rem 2rem;
   border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.right-sticky a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: .77;
 }
 
 footer {
@@ -3890,6 +3900,12 @@ aside.aside-wrp span i:hover {
   }
   .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp .form_heading p {
     font-size: 15px;
+  }
+  .right-sticky {
+    right: -61px;
+  }
+  .right-sticky a {
+    font-size: 1em;
   }
 }
 
