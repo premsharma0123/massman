@@ -3256,6 +3256,9 @@ aside.aside-wrp span i:hover {
 
 .Thanks_Wrapper .Thanks_wrp h2 {
   border-bottom: inherit !important;
+  font-size: 3.1rem !important;
+  -webkit-animation: animebg 24s linear infinite;
+          animation: animebg 24s linear infinite;
 }
 
 ::-webkit-scrollbar {
@@ -3592,9 +3595,18 @@ aside.aside-wrp span i:hover {
   .app-development .AppConten_wrp .App_cnt .left-cmn01 h2 {
     font-size: 2em;
   }
+  .Thanks_Wrapper .Thanks_wrp h2 {
+    font-size: 2.5rem !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  .Thanks_Wrapper .Thanks_wrp {
+    padding: 6rem 0 6rem !important;
+  }
+  .Thanks_Wrapper .Thanks_wrp h2 {
+    font-size: 2.4rem !important;
+  }
   .bg-bubbles li {
     width: 20px;
     height: 20px;
@@ -3973,6 +3985,12 @@ aside.aside-wrp span i:hover {
   }
   .f5 label:active::before, .f5 label:focus::before, .f5 label:focus-within::before {
     width: 100% !important;
+  }
+  .Thanks_Wrapper .Thanks_wrp {
+    padding: 5rem 0 5 !important;
+  }
+  .Thanks_Wrapper .Thanks_wrp h2 {
+    font-size: 2rem !important;
   }
 }
 

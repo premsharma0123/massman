@@ -306,11 +306,19 @@
     .app-development .AppConten_wrp .App_cnt .left-cmn01 h2 {
         font-size: 2em;
     }
-    
+    .Thanks_Wrapper .Thanks_wrp h2 {
+        font-size: 2.5rem !important;
+    }
     // -----end----here----------//
 }
 
 @media only screen and(max-width:767px){
+    .Thanks_Wrapper .Thanks_wrp {
+        padding: 6rem 0 6rem!important;
+    }
+    .Thanks_Wrapper .Thanks_wrp h2 {
+        font-size: 2.4rem !important;
+    }
     .bg-bubbles li{
         width: 20px;
         height: 20px;   
@@ -701,6 +709,13 @@
             }
         }
     }  
+
+    .Thanks_Wrapper .Thanks_wrp {
+        padding: 5rem 0 5!important;
+    }
+    .Thanks_Wrapper .Thanks_wrp h2 {
+        font-size: 2rem !important;
+    }
     // -----end----here----------//
 }
 
