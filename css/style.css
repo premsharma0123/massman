@@ -1766,7 +1766,7 @@ main header nav .Nav_item .srv01:hover .service-wrp {
 
 .right-sticky {
   position: fixed;
-  right: -69px;
+  right: -64px;
   top: 50%;
   z-index: 20;
   -webkit-transform: rotate(90deg);
