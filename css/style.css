@@ -2172,7 +2172,6 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
 .contact-form .child-wrp .head-box {
   padding: 1rem 0;
   width: 100%;
-  cursor: move;
 }
 
 .contact-form .child-wrp a.Close3 {
@@ -2271,7 +2270,7 @@ button {
   cursor: pointer;
 }
 
-button.chatbox-open {
+.chatbox-open {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -2287,10 +2286,34 @@ button.chatbox-open {
   border-radius: 50%;
   cursor: pointer;
   z-index: 7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 16px;
 }
 
-button.chatbox-close {
+.chatbox-open img {
+  /* z-index: 19; */
+  max-width: 63%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.chatbox-open img:hover {
+  opacity: .77;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(0.88);
+          transform: scale(0.88);
+}
+
+.chatbox-close {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -3249,6 +3272,7 @@ aside.aside-wrp span i:hover {
 .Contact-Us_Wrapper .Contact_wrp h2 {
   -webkit-animation: animebg 24s linear infinite;
           animation: animebg 24s linear infinite;
+  font-size: 3.3em;
 }
 
 .Thanks_Wrapper .Our-Service_wrapper::before {
