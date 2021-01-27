@@ -2327,6 +2327,19 @@ button {
   margin: 16px;
 }
 
+.chatbox-open::before {
+  content: '1';
+  position: absolute;
+  top: -4px;
+  right: -3px;
+  background: #ff9c05;
+  padding: 2px 5px;
+  border-radius: 50%;
+  font-size: 11px;
+  color: #000;
+  font-weight: bolder;
+}
+
 .chatbox-open img {
   /* z-index: 19; */
   max-width: 63%;
