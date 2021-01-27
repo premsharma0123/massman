@@ -124,7 +124,6 @@
     margin: 0 .3rem;
   }
   .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp form .f5 {
-    width: 100% !important;
     padding: 0 0 1rem;
   }
   .f3.Cont_Cmn2 {
@@ -456,15 +455,22 @@
     margin: 0 0 1rem;
   }
   .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp form .f5 input {
-    width: 40%;
+    width: 100%;
     font-size: 1.1em;
   }
   .f5 label:active::before, .f5 label:focus::before, .f5 label:focus-within::before {
-    width: 40% !important;
+    width: 100% !important;
   }
 }
 
 @media only screen and (max-width: 480px) {
+  .chat_img {
+    right: -94px;
+    bottom: 68px;
+  }
+  .chat_img img {
+    width: 35%;
+  }
   main header nav .logo a img {
     max-width: 80%;
   }
@@ -704,6 +710,12 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .chat_img {
+    right: -106px;
+  }
+  .chat_img img {
+    width: 31%;
+  }
   .banner_wrapper .Banner_content .Bnr_left h1 {
     font-size: 1.4em;
   }
