@@ -2215,7 +2215,7 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
   outline: none;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: #eee;
+  color: #000000;
 }
 
 .contact-form .child-wrp form .d1 label input:focus {
