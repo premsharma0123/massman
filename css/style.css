@@ -2238,6 +2238,16 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+.contact-form .child-wrp form .d1 label input::-webkit-outer-spin-button,
+.contact-form .child-wrp form .d1 label input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact-form .child-wrp form .d1 label input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .contact-form .child-wrp form .Submit2 input {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
