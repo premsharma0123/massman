@@ -1771,6 +1771,7 @@ main header nav .Nav_item .srv01:hover .service-wrp {
   z-index: 20;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+  display: none;
 }
 
 .right-sticky a {
@@ -2138,10 +2139,10 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
   width: 400px;
   margin: 0 auto;
   background: #fff;
-  position: fixed;
+  position: absolute;
   overflow: hidden;
-  top: 39%;
-  right: -100%;
+  top: 42%;
+  right: 110px;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -2172,6 +2173,18 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
 .contact-form .child-wrp .head-box {
   padding: 1rem 0;
   width: 100%;
+}
+
+.contact-form .child-wrp .head-box h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.99em;
+  text-align: center;
+  background: linear-gradient(45deg, #FDCF41, #FF9800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animebg 24s linear infinite;
+          animation: animebg 24s linear infinite;
 }
 
 .contact-form .child-wrp a.Close3 {
@@ -2205,7 +2218,7 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
   width: 100%;
 }
 
-.contact-form .child-wrp form .d1 label input {
+.contact-form .child-wrp form .d1 label input, .contact-form .child-wrp form .d1 label select {
   width: 100%;
   padding: .8rem .5rem;
   margin: .5rem 0;
@@ -2218,7 +2231,7 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
   color: #000000;
 }
 
-.contact-form .child-wrp form .d1 label input:focus {
+.contact-form .child-wrp form .d1 label input:focus, .contact-form .child-wrp form .d1 label select:focus {
   -webkit-box-shadow: 0 0px 4px 0  #262f3a;
           box-shadow: 0 0px 4px 0  #262f3a;
   -webkit-transition: all 0.3s ease-in-out;

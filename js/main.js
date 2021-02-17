@@ -139,7 +139,7 @@ window.onscroll = function() {
     matrixFunction() //or scroll function--
 };
 function matrixFunction() {
-    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
        // mybutton.style.display = "block";
         navbar.classList.add("sticky")
     } else {

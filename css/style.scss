@@ -1540,6 +1540,7 @@
     top: 50%;
     z-index: 20;
     transform: rotate(90deg);
+    display: none;
     a{
         background: linear-gradient(45deg, #FDCF41, #FF9800);//#262f3a;
         color: #000000;
@@ -1798,10 +1799,10 @@ footer{
     width: 400px;
     margin: 0 auto;
     background: #fff;
-    position: fixed;
+    position: absolute;
     overflow: hidden;
-    top: 39%;
-    right: -100%;
+    top: 42%;//46%;
+    right: 110px;//-100%;
     border-radius: 5px;
     transition: $transition;
     z-index: 5;
@@ -1825,7 +1826,16 @@ footer{
         .head-box{
             padding: 1rem 0;
             width: 100%;
-            //cursor: move;
+            h2{
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 1.99em;
+                text-align: center;
+                background: linear-gradient(  45deg  , #FDCF41, #FF9800);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: animebg 24s linear infinite;
+            }
         }
         a.Close3 {
             font-size: 1.5rem;
@@ -1847,7 +1857,7 @@ footer{
                 overflow: hidden;
                 label{
                     width: 100%;
-                    input{
+                    input,select{
                         width: 100%;
                         padding: .8rem .5rem;
                         margin: .5rem 0;

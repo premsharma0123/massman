@@ -20,7 +20,7 @@
         <header id="navbar">
             <div class="container">
                 <nav>
-                    <div class="logo your-element" data-tilt data-tilt-glare data-tilt-max-glare="0.8" >
+                    <div class="logo your-element" data-tilt data-tilt-reverse="true" >
                         <!-- data-tilt data-tilt-glare data-tilt-max-glare="0.8" -->
                         <a href="#">
                             <img src="image/logo1.png" alt="img">
@@ -585,10 +585,12 @@
         <a href="#">Get in touch</a>
     </div>
 
-        <div class="contact-form wow fadeIn"  style="visibility: visible;" id="contact-form">
-              <div class="child-wrp" id="mydivheader">
+        <div class="contact-form wow fadeIn"  style="visibility: visible;" id="contact-form"> 
+            <!-- id="mydivheader" -->
+              <div class="child-wrp"> 
                  <div class="head-box">
                      <!-- <img src="image/logo1.png" alt=""> -->
+                     <h2>Get Appointment</h2>
                 </div>
                 <a href="#" onclick="document.getElementById('contact-form').style.right='-200%'" class="Close3" title="close">X</a>
                   <form action="#" >
@@ -596,20 +598,35 @@
                           <label for="#">
                               <input type="text" name="name1" id="name1" placeholder="Name">
                           </label>
-                      </div>
-                      <div class="d1 number">
-                        <label for="#">
-                            <input type="number" name="number1" id="number1" placeholder="Number">
-                        </label>
-                    </div>
+                      </div> 
                     <div class="d1 Email2">
                         <label for="#">
                             <input type="Email" name="Eamil2" id="Email2" placeholder="E-mail">
                         </label>
                     </div>
+                    <div class="d1 number">
+                        <label for="#">
+                            <input type="number" name="number1" id="number1" placeholder="Number">
+                        </label>
+                    </div>
+                    <div class="d1 date">
+                        <label for="#">
+                           <input type="date" name="date1" id="date1">
+                        </label>
+                    </div>
+                    <div class="d1 select">
+                        <label>
+                            <select name="Service" id="service">
+                                <option value="one1">Web development</option>
+                                <option value="two2">App development</option>
+                                <option value="three3">UI & UX</option>
+                                <option value="Four4">SEO & SMO</option>
+                            </select>
+                       </label>
+                    </div>
                     <div class="d1 Submit2">
                         <label for="#">
-                            <input type="Submit" name="Sub" id="submit2" placeholder="Submit">
+                            <input type="Submit" name="Sub" id="submit2" value="schedule service" >
                         </label>
                     </div>
                   </form>
