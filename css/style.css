@@ -2149,6 +2149,7 @@ footer .Copyright_wrp .cpy-rgt p a:hover {
   z-index: 5;
   -webkit-box-shadow: 0 1px 3px 1px #29313b;
           box-shadow: 0 1px 3px 1px #29313b;
+  display: none;
 }
 
 .contact-form::before {

@@ -1807,6 +1807,7 @@ footer{
     transition: $transition;
     z-index: 5;
     box-shadow: 0 1px 3px 1px #29313b;
+    display: $none;
     &::before{
         content: '';
         width: 100%;
